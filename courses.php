@@ -50,46 +50,76 @@
 
     <div id="courses-list"
       class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-16 lg:gap-16 mx-5 sm:mx-14 lg:mx-[7.5rem] mt-12 sm:mt-28">
-      <!-- TestDaF Examination -->
-      <div class="courses-card">
-        <img src="../assets/images/course-svg/test-daf.svg" alt="" class="mx-auto w-[60%]" />
-        <div class="courses-card-box">
-          <div class="flex flex-col gap-2 items-start py-6">
-            <span class="clashdisplay font-medium text-[var(--brand-blue)] text-xl sm:text-2xl">TestDaF
-              Examination</span>
-            <span class="text-sm sm:text-base">(Test auf Deutsch als Fremdsprache) : A mandatory examination
-              for students, who are aspiring to study at Universities in all
-              German-speaking countries. It teaches scientific terms across
-              various fields.</span>
-          </div>
-          <div class="yellow-link mt-4">
-            <a href="course-details/testDaf.php" class="flex items-center">
-              Know more
-              <img src="../assets/images/arrow-right.svg" alt="" class="ml-2" />
-            </a>
-          </div>
-        </div>
-      </div>
-<!--Inter cultural card-->
+
+        <!-- TestDaF Examination -->
         <div class="courses-card">
-            <img src="../assets/images/course-svg/ict.svg" alt="" class="mx-auto w-[60%]" />
-            <div class="courses-card-box">
-                <div class="flex flex-col gap-2 items-start py-6">
-            <span class="clashdisplay font-medium text-[var(--brand-blue)] text-xl sm:text-2xl">Intercultural
-              Communication Training</span>
-                    <span class="text-sm sm:text-base">SLS puts emphasis on the cultural sensitization of the clients
-              by conducting high-end workshops which enable our clients to
-              understand German culture, its traditions, rituals, customs and
-              laws</span>
+            <img src="../assets/images/course-svg/test-daf.svg" alt="" class="mx-auto w-[80%]" />
+
+            <div class="courses-card-box flex flex-col justify-between h-full">
+                <div class="flex flex-col gap-2 items-start py-6 min-h-[200px]">
+      <span class="clashdisplay font-medium text-[var(--brand-blue)] text-xl sm:text-[24px]">
+        TestDaF Examination
+      </span>
+                    <span class="text-sm sm:text-base">
+        (Test auf Deutsch als Fremdsprache) : A mandatory examination for students, who are aspiring to study at Universities in all German-speaking countries. It teaches scientific terms across various fields.
+      </span>
                 </div>
-                <div class="yellow-link mt-4">
-                    <a href="course-details/interculturalCommunicationTraining.php" class="flex items-center">
-                        Know more
-                        <img src="../assets/images/arrow-right.svg" alt="" class="ml-2" />
-                    </a>
+
+                <!-- 1x3 Grid Footer -->
+                <div class="grid grid-cols-3 items-center mt-6">
+                    <!-- Col 1: Know more -->
+                    <div>
+                        <a href="course-details/testDaf.php" class="flex items-center text-sm sm:text-base yellow-link">
+                            Know more
+                            <img src="../assets/images/arrow-right.svg" alt="" class="ml-2 w-6 h-6" />
+                        </a>
+                    </div>
+
+                    <!-- Col 2: Spacer -->
+                    <div></div>
+
+                    <!-- Col 3: Flagship icon aligned right -->
+                    <div class="flex justify-end">
+                        <img src="../assets/images/flagship_course.svg" alt="flagship badge" class="h-7 sm:h-7 w-auto" />
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- Intercultural Communication Training -->
+        <div class="courses-card">
+            <img src="../assets/images/course-svg/ict.svg" alt="" class="mx-auto w-[80%]" />
+
+            <div class="courses-card-box flex flex-col justify-between h-full">
+                <div class="flex flex-col gap-2 items-start py-6 min-h-[200px]">
+      <span class="clashdisplay font-medium text-[var(--brand-blue)] text-xl sm:text-[24px]">
+        Intercultural Communication Training
+      </span>
+                    <span class="text-sm sm:text-base">
+        SLS puts emphasis on the cultural sensitization of the clients by conducting high-end workshops which enable our clients to understand German culture, its traditions, rituals, customs and laws.
+      </span>
+                </div>
+
+                <!-- 1x3 Grid Footer with empty right column -->
+                <div class="grid grid-cols-3 items-center mt-6">
+                    <!-- Col 1: Know more -->
+                    <div>
+                        <a href="course-details/interculturalCommunicationTraining.php" class="flex items-center text-sm sm:text-base yellow-link">
+                            Know more
+                            <img src="../assets/images/arrow-right.svg" alt="" class="ml-2 w-4 h-4" />
+                        </a>
+                    </div>
+
+                    <!-- Col 2: Spacer -->
+                    <div></div>
+
+                    <!-- Col 3: No badge, just empty -->
+                    <div class="flex justify-end"></div>
+                </div>
+            </div>
+        </div>
+
+
       <!-- DSH Examination -->
       <div class="courses-card">
         <img src="../assets/images/course-svg/dsh-exam.svg" alt="" class="mx-auto w-[60%]" />
@@ -186,6 +216,7 @@
 <!--        </div>-->
 <!--      </div>-->
     </div>
+  </div>
 
     <div class="admission-consultancy-wrapper h-full p-[1px] mt-40">
       <div class="admission-consultancy px-5 sm:px-14 lg:px-[7.5rem] py-20">
